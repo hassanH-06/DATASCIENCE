@@ -1,0 +1,5 @@
+"feature1","feature2","r","decision","reason"
+"sysBP","diaBP",0.77834887249513,"Retain both provisionally","Distinct pressure measurements; inspect VIF and validate alternatives."
+"currentSmoker","cigsPerDay",0.775506309846231,"Retain both provisionally","Smoking status and daily intensity have different interpretations; test whether status adds value."
+"prevalentHyp","sysBP",0.701184316352718,"Retain both provisionally","Recorded hypertension status and current pressure need not coincide; confirm definition."
+"prevalentHyp","diaBP",0.60876431015074,"Retain both provisionally","Recorded hypertension status and current pressure need not coincide; confirm definition."

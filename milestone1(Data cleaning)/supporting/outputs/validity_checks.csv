@@ -1,0 +1,9 @@
+"check","count"
+"Exact duplicate original rows",0
+"Invalid binary codes",0
+"Invalid education codes",0
+"Nonpositive medical measurements",0
+"Negative cigarettes/day",0
+"Systolic <= diastolic",0
+"Nonsmoker with positive cigarettes",0
+"Smoker with zero cigarettes",0

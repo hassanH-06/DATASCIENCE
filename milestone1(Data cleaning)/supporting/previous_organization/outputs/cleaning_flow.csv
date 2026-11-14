@@ -1,0 +1,8 @@
+"stage","n"
+"Raw rows",4240
+"Excluded missing glucose",388
+"Retained observed targets",3852
+"Training rows",3081
+"Test rows",771
+"Imputed cells",198
+"Final columns",20

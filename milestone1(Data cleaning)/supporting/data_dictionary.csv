@@ -1,0 +1,18 @@
+variable,type,meaning_or_convention,role
+male,binary,Recorded male indicator 0 or 1; restricted sex coding,predictor
+age,numerical,Age in years,predictor
+education,ordinal,1 some high school; 2 high school or GED; 3 some college or vocational; 4 college graduate; convention needs source confirmation,predictor
+currentSmoker,binary,Current smoking indicator 0 or 1,predictor
+cigsPerDay,numerical,Cigarettes per day,predictor
+BPMeds,categorical,Blood pressure medication indicator 0 or 1; missing becomes Unknown,predictor
+prevalentStroke,binary,History of stroke indicator,predictor
+prevalentHyp,binary,Prevalent hypertension indicator,predictor
+diabetes,binary,Diabetes status; definition and timing unresolved,excluded for potential glucose-derived leakage
+totChol,numerical,Total cholesterol; conventional mg/dL requires source confirmation,predictor
+sysBP,numerical,Systolic blood pressure; conventional mmHg,predictor
+diaBP,numerical,Diastolic blood pressure; conventional mmHg,predictor
+BMI,numerical,Body mass index; conventional kg/m2,predictor
+heartRate,numerical,Heart rate; conventional beats per minute,predictor
+glucose,numerical,Measured glucose; conventional mg/dL; fasting status unverified,target
+TenYearCHD,binary,Coronary heart disease outcome in following ten years,excluded future information
+source_row,identifier,One-based original CSV data row; never use as predictor,audit only
