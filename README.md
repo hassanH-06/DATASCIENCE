@@ -6,6 +6,17 @@ A responsive website for the four frozen laptop-price models: linear regression,
 
 Run `python -m http.server 4173 --directory dist` and open http://localhost:4173. No Python inference server, API key or training is needed. The browser runs the exported fitted model parameters.
 
+## Run with Docker / LiveFolio
+
+Build with `docker build -t laptop-price-lab .` and run with
+`docker run --rm -p 8080:8080 laptop-price-lab`. Open http://localhost:8080.
+The container serves only `dist/`, runs as an unprivileged user, and exposes a
+`/health` endpoint. No environment variables, database, or API keys are required.
+
+LiveFolio settings: project type **Live**, Dockerfile path **Dockerfile**,
+container port **8080**, health check path **/health**. Use the branch containing
+these files. The repository must be accessible to LiveFolio's build service.
+
 ## Files
 
 - `dist/index.html`, `style.css`, `app.mjs`: website and interaction code.
