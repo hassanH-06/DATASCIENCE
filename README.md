@@ -24,3 +24,7 @@ Actual price is never used as an input. It is shown only when an unchanged selec
 Examples are fixed price-ranked selections from the existing 432-row project test set, not new independent evaluation data. The interface is for demonstration; browsing examples does not update the models. Coverage is limited to the original dataset, and expensive or uncommon configurations may have larger errors. These are price estimates, not current market quotes or prediction intervals.
 
 Team: Mostafa Bdeir, Hassan Hijazi and Hasan Haidar.
+
+## Deploy on Netlify
+
+Import `hassanH-06/DATASCIENCE` from GitHub, select the `main` branch, leave the build command empty and publish `dist`. The included `netlify.toml` supplies the publish directory. No backend or environment variables are needed. The default Netlify URL does not contain ChatGPT.
