@@ -28,3 +28,5 @@ Team: Mostafa Bdeir, Hassan Hijazi and Hasan Haidar.
 ## Deploy on Netlify
 
 Import `hassanH-06/DATASCIENCE` from GitHub, select the `main` branch, leave the build command empty and publish `dist`. The included `netlify.toml` supplies the publish directory. No backend or environment variables are needed. The default Netlify URL does not contain ChatGPT.
+
+Displayed example cards include only explicitly specified GPUs. Unknown or unresolved GPU records remain in the original test dataset and model inputs; no data or models were changed.
