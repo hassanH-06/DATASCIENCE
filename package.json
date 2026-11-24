@@ -1,0 +1,1 @@
+{"name":"laptop-price-lab","private":true,"type":"module","scripts":{"test":"node scripts/verify.mjs","dev":"python -m http.server 4173 --directory dist"}}

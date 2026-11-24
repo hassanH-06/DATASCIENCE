@@ -1,9 +1,0 @@
-{
-  "train_sha256": "7d7e04d0f60e4254bb3bf8023ddacd1cecad884dd83198ff92251d1e9a052cd7",
-  "test_sha256": "e7b6f537c8deaf9597f81e0f1f012bb6628515e07098f917c42ca96021dcfe94",
-  "python": "3.13.12",
-  "sklearn": "1.9.1",
-  "numpy": "2.5.3",
-  "pandas": "3.0.6",
-  "elapsed_seconds": 11.882795810699463
-}
